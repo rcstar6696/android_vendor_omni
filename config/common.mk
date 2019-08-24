@@ -41,7 +41,7 @@ endif
 
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
+    ro.control_privapp_permissions=log
 
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/clean_cache.sh:system/bin/clean_cache.sh
